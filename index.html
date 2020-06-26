@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spotify</title>
+	<link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+	<div class="mx-auto bg-gray-800 max-w-screen-lg h-screen flex">
+		<section class="bg-gray-900 h-screen w-48">
+
+			<div class="flex w-48 px-4 pt-4 mb-10">
+				<div class="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
+				<div class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
+				<div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
+			</div>
+
+			<div class="flex flex-col">
+				<button class="text-gray-300 font-bold flex ml-6 items-center mb-4"><img class="mr-3" src="images/home-icon.svg" alt="home icon">Home</button>
+				<button class="text-gray-300 font-bold flex ml-5 items-center mb-4"><img class="mr-3" src="images/Browse-icon.svg" alt="browse icon">Browse</button>
+				<button class="text-gray-300 font-bold flex ml-6 items-center mb-6"><img class="mr-3" src="images/radio-icon.svg" alt="radio icon">Radio</button>
+				<button class="text-gray-300 text-sm font-thin flex ml-6 items-center mb-2">YOUR LIBRARY</button>
+				<button class="text-gray-300 flex ml-6 items-center mb-2">Made For You</button>
+				<div class="flex mb-2">
+					<div class="absolute w-1 h-6 bg-green-500 z-10"></div>
+					<button class="text-white ml-6">Recently Played</button>
+				</div>
+				<button class="text-gray-300 flex ml-6 items-center mb-2">Liked Songs</button>
+				<button class="text-gray-300 flex ml-6 items-center mb-2">Albums</button>
+				<button class="text-gray-300 flex ml-6 items-center mb-2">Artists</button>
+				<button class="text-gray-300 flex ml-6 items-center mb-4">Podcasts</button>
+			</div>
+
+			<hr>
+
+			<div class="h-16 border-gray-300">
+				<button class="text-gray-300 flex ml-6 items-center mb-3 mt-2"><img class="mr-3" src="images/add-icon.svg" alt="home icon">New Playlist</button>
+				<img src="images/main.png" alt="">
+			</div>
+
+		</section>
+
+		<div class="h-screen flex-grow">
+			<div class="bg-gradient h-48 w-full flex flex-col justify-between">
+
+				<nav class="w-full h-12 px-4 py-3 flex justify-between">
+					<div class="flex">
+						<button class="mr-2"><img src="images/left-arrow-icon.svg" alt="left arrow"></button>
+						<button class="ml-2"><img src="images/right-arrow-icon.svg" alt="right arrow"></button>
+						<div class="bg-white rounded-full ml-8 flex">
+							<div class="pt-1 pl-2">
+								<img src="images/search-icon.png" alt="search icon">
+							</div>
+							<input type="text" class="pl-2 rounded-tr-full rounded-br-full placeholder-black" placeholder="Search">
+						</div>
+					</div>
+					<div class="flex">
+						<button class="flex items-center text-white mr-8 font-black">
+							<div class="w-8 h-8 bg-black rounded-full mr-2"></div>
+							BabaDoo
+						</button>
+						<button class="relative">
+							<div class="absolute w-3 h-3 bg-blue-500 rounded-full z-10 top-0 right-0 -mr-1"></div>
+							<img src="images/down-arrow-icon.png" alt="down arrow">
+						</button>
+					</div>
+				</nav>
+
+				<div class="px-8 mb-2">
+					<h1 class="text-5xl font-bold text-white">Recently Played</h1>
+				</div>
+
+			</div>
+
+			<section class="px-8 flex flex-wrap -mx-2">
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/1.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Dark Side of the Moon</h3>
+					<p class="text-gray-300 leading-tight">Pink Flyod</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/2.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Ready to Die</h3>
+					<p class="text-gray-300 leading-tight">The Notorious B.I.G.</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/3.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Beyonce</h3>
+					<p class="text-gray-300 leading-tight">Beyonce</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/4.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Abbey Road</h3>
+					<p class="text-gray-300 leading-tight">The Beatles</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/5.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">1989</h3>
+					<p class="text-gray-300 leading-tight">Taylor Swift</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/6.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Led Zeppelin</h3>
+					<p class="text-gray-300 leading-tight">Led Zeppelin</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/7.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Rio </h3>
+					<p class="text-gray-300 leading-tight">Duran Duran</p>
+				</div>
+				<div class="w-1/4 px-2 mb-3">
+					<img class="w-full" src="images/8.png" alt="album">
+					<h3 class="text-white font-bold leading-tight mt-1">Illmatic</h3>
+					<p class="text-gray-300 leading-tight">Nas</p>
+				</div>
+			</section>
+
+		</div>
+	</div>
+	<div class="w-full h-20 bg-gray-700 flex justify-center items-center px-4 py-4">
+		<div class="w-1/5 h-20 flex justify-center flex-col">
+			<div class="flex">
+				<h3 class="text-white font-bold leading-tight mr-4">Dreams</h3>
+				<button><img src=" images/heart-icon.svg" alt="heart"></button>
+			</div>
+			<div>
+				<p class="text-gray-300 leading-tight">The Cranberries</p>
+			</div>
+		</div>
+		<div class="w-3/5 h-20 flex flex-col justify-center items-center">
+			<div class="flex items-center justify-around mb-1">
+				<button class=" px-4"><img src="images/shuffle-icon.svg" alt="shuffle"></button>
+				<button class="px-2"><img src="images/backtrack-icon.svg" alt="backtrack"></button>
+				<button class="px-4"><img src="images/pause-icon.svg" alt="pause"></button>
+				<button class="px-2"><img src="images/forward-icon.svg" alt="forward"></button>
+				<button class="px-4"><img src="images/loop-icon.svg" alt="loop"></button>
+			</div>
+			<div class="flex justify-center text-center items-center">
+				<p class="text-gray-300 text-xs">0:35</p>
+				<div class="h-1 w-64 bg-gray-400 rounded-full relative ml-4 mr-4">
+					<div class="h-1 w-12 bg-gray-300 rounded-full z-10"></div>
+				</div>
+				<p class="text-gray-300 text-xs">4:14</p>
+			</div>
+		</div>
+		<div class="w-1/5 h-20 flex justify-center items-center">
+			<button class="pr-2"><img src="images/queue-icon.svg" alt="queue"></button>
+			<button class="relative px-2">
+				<div class="absolute w-3 h-3 bg-blue-500 rounded-full z-10 top-0 right-0 -mt-2"></div>
+				<img src="images/device-icon.svg" alt="device">
+			</button>
+			<button class=" pl-2"><img src="images/volume-icon.svg" alt="volume"></button>
+			<div class="h-1 w-20 bg-gray-400 rounded-full relative ml-3 mr-4">
+					<div class="h-1 w-10 bg-gray-300 rounded-full z-10"></div>
+				</div>
+			<button><img src="images/expand-icon.svg" alt="expand"></button>
+		</div>
+	</div>
+	
+</body>
+</html>
